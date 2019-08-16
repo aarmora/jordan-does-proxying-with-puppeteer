@@ -1,0 +1,19 @@
+{
+	"name": "jordan-does-proxying-with-puppeteer",
+	"version": "1.0.0",
+	"description": "Use proxies with puppeteer.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"dependencies": {
+		"puppeteer": "^1.19.0",
+		"puppeteer-helpers": "^1.0.10"
+	},
+	"devDependencies": {
+		"@types/puppeteer": "^1.19.1",
+		"typescript": "^3.5.3"
+	}
+}
